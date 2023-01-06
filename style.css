@@ -1,0 +1,78 @@
+body{
+    position: relative;
+    color: #303846;
+    background: #ffffff;
+    font-size: 16px;
+    font-family: ALS Hauss;
+    line-height: 1.5;
+    background-color: #ffffff;
+
+}
+
+.body-container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.header{
+    height: 80px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.hearer-logo{
+    flex: 0 0 130px;
+    width: 100%;
+
+}
+
+.header-logo-button{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.header-slack{
+    flex: 15 1 120px;
+
+}
+
+.header-username{
+    flex: 0 0 130px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.header-userprofile{
+    flex: 0 0 65px;
+    padding: 26px 16px 22px 16px;
+}
+
+.userprofile-img{
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+
+.header-logout{
+    margin-top: 7px;
+    margin-left: 7px;
+    max-width: 30px;
+    flex: 0 0 30px;
+}
+
+.btn-logout{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
