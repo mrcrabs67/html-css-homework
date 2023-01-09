@@ -522,3 +522,150 @@ body {
         display: none;
     }
 }
+
+.dialog-cont {
+    position:fixed;
+
+    left: 0;
+    top: 0;
+
+    width:100%;
+    height:100%;
+
+    background: rgba(43, 45, 51, 0.24);
+
+    visibility: visible;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.dialog {
+    position: absolute;
+
+    top: 50%;
+    left: 50%; 
+
+    padding: 32px;
+
+    max-width: 600px;
+    width: 100%;
+
+    background: #fff;
+    
+    transform: translate(-50%, -50%);
+
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+.cls-btn {
+
+    position: absolute;
+    top: 35px;
+    right: 35px;
+
+    border: none;
+    background-color: #FFFFFF;
+
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.dialog-head {
+
+    margin-bottom: 12px;
+
+    font-family: 'Navigo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.dialog-head-desc {
+    margin-bottom: 24px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #808185;   
+}
+
+.dialog-main-desc {
+    padding: 24px;
+
+    background: #F4F4F4;
+
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+.dialog-main-descr-head {
+    margin-bottom: 8px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.dialog-main-desc-dtl {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #AAABAD;
+}
+
+.dialog-type-filt {
+
+    margin-bottom: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+.dialog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input {
+    padding: 7px 12px;
+    gap: 10px;
+
+    border: 1px solid #D5D5D6;
+    border-radius: 8px;
+
+    margin: 0 auto;
+    width: calc(100% - 32px);
+}
+
+.popup-second-text {
+    color: #808185;
+    font-family: 'ALS Hauss';
+    font-style: normal;
+}
+
+.dialog-ok {
+    background: #FEE600;
+    border: none;
+}
+
+.dialog-cancel {
+    border: none;
+}
+
