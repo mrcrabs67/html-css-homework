@@ -534,9 +534,8 @@ body {
 
     background: rgba(43, 45, 51, 0.24);
 
-    visibility: visible;
-
-    display: flex;
+    visibility: hidden;
+    opacity: 0;
     flex-direction: column;
 
 
@@ -668,4 +667,10 @@ body {
 .dialog-cancel {
     border: none;
 }
-/**/
+
+.dialog-cont:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+
